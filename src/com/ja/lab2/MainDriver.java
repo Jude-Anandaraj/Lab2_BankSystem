@@ -14,15 +14,18 @@ public class MainDriver {
 		// Scanner for the input
 		Scanner sc = new Scanner(System.in);
 
+		System.out.println("----------------Account1----------------");
 		//Creating a Bank account and perform deposit and withdrawal
 		BankAccount account1 = createBankAccount(sc);
 		performDeposit(sc ,account1);
 		performWithdraw(sc, account1);
 		
+		System.out.println("\n----------------Account2----------------");
 		BankAccount account2 = createBankAccount(sc);
 		performDeposit(sc ,account2);
 		performWithdraw(sc, account2);
 		
+		System.out.println("\n----------------Account3----------------");
 		BankAccount account3 = createBankAccount(sc);
 		performDeposit(sc ,account3);
 		performWithdraw(sc, account3);
