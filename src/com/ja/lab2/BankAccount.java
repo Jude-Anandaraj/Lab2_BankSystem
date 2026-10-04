@@ -1,3 +1,8 @@
+/*
+ * Jude Anandaraj
+ * 2026/10/03
+ * Bank Account class for Bank system
+ */
 package com.ja.lab2;
 
 public class BankAccount {
